@@ -32,7 +32,7 @@
   "deprecated": false,
   "description": "styles and images to easily allow the awesome flagkit svgs to be used on the web",
   "devDependencies": {
-    "node-sass": "4.7.2"
+    "node-sass": "9.0.0"
   },
   "homepage": "https://github.com/dfenstermaker/flagkit-web#readme",
   "keywords": [
