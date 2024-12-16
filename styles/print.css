@@ -1,0 +1,9 @@
+@media print {
+  #entete, #pied {
+      display:none;
+    } 
+
+  a[href]:after {
+    content: none !important;
+  }
+}

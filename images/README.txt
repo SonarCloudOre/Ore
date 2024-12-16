@@ -1,0 +1,1 @@
+LES DOSSIERS avatars, dropdown-header, originals, sidebar AINSI QUE LES FICHIERS ajax-loader.gif, icons.gif, icons-ret.gif, laoding.gif, logo.png, logo-inverse.png, vline.png et vline-rtl.gif ONT ETE CREES A LA SUITE DE L ACHAT DU THEME PAYANT 

@@ -1,0 +1,19 @@
+.app-main__outer {
+	padding-left: 0 !important;
+}
+
+#ae-main {
+	max-width: 73vw;
+}
+#ae-main #student-photo {
+	max-height: 350px;
+	max-width: 25%;
+}
+
+#submit.disabled {
+	cursor: not-allowed;
+}
+
+#tablet-back-button {
+	border-radius: 50px;
+}

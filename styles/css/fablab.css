@@ -1,0 +1,26 @@
+
+/* Survole des images */
+.hover-title {
+display: inline;
+pointer-events: auto;
+cursor: pointer;
+text-decoration: underline;
+}
+
+.hover-image {
+display: none;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+display: flex;
+pointer-events: none;
+}
+
+.hover-image {
+top: 50%;
+right: 50%;
+transform: translate(50%, -30%);
+z-index: -1;
+width: 50%;
+height: auto;
+}

@@ -1,0 +1,104 @@
+.wrapper.wrapper-print {
+    width: 227.5px;
+}
+
+.wrapper.wrapper-print .left,
+.wrapper.wrapper-print .right
+{
+    padding: 10px 5px;
+}
+
+.wrapper.wrapper-print:not(.wrapper-print-intervenant) .left,
+.wrapper.wrapper-print:not(.wrapper-print-intervenant) .right
+{
+    width: 227.5px;
+}
+
+.wrapper.wrapper-print.wrapper-print-intervenant .left {
+    width: 211.4px;
+}
+.wrapper.wrapper-print.wrapper-print-intervenant .right {
+    width: 392.6px;
+}
+
+.wrapper.wrapper-print .left > img {
+    display: none;
+}
+
+.wrapper.wrapper-print .left h2 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.wrapper.wrapper-print .left img,
+.wrapper.wrapper-print .left p {
+    margin: 0;
+}
+
+.wrapper.wrapper-print:not(.wrapper-print-intervenant) .left img {
+    width: 90px !important;
+}
+
+.wrapper.wrapper-print .right .titre {
+    display: none;
+}
+
+.wrapper.wrapper-print .right .info {
+    margin-top: 0;
+}
+.wrapper.wrapper-print .right .info h3 {
+    display: none;
+}
+
+.wrapper.wrapper-print .right .projects {
+    display: none;
+}
+
+.wrapper.wrapper-print .right .info_data {
+    margin: auto;
+}
+.wrapper.wrapper-print .right .info_data .data:nth-of-type(2) {
+    display: none;
+}
+.wrapper.wrapper-print .right .info_data .data h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.wrapper.wrapper-print .right .info_data .data #identity {
+    margin-bottom: 6px;
+}
+.wrapper.wrapper-print:not(.wrapper-print-intervenant) .right .info_data .data #identity {
+    margin-bottom: 12px;
+}
+.wrapper.wrapper-print .right .info_data .data #specialites {
+    display: block;
+    font-size: 0.85em;
+}
+.wrapper.wrapper-print .right .info_data .data.specialites5 #specialites {
+    font-size: 0.75em;
+}
+.wrapper.wrapper-print .right .info_data .data.specialites5 h4 {
+    font-size: 1.1em;
+    margin-bottom: 4px;
+}
+.wrapper.wrapper-print.wrapper-print-intervenant .right .info_data .data #identity,
+.wrapper.wrapper-print.wrapper-print-intervenant .right .info_data .data #specialites
+{
+    width: 137.88px;
+}
+.wrapper.wrapper-print.wrapper-print-intervenant .right .info_data .data #person-name {
+    display: none;
+}
+
+.wrapper.wrapper-print .right .info_data .data p {
+    color: #353c4e;
+    font-size: 1em;
+    margin-bottom: 0;
+    text-align: center;
+    word-break: break-word;
+}
+
+.wrapper.wrapper-print:not(.wrapper-print-intervenant) .right .info_data .data {
+    width: 100%;
+}

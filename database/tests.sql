@@ -1,0 +1,58 @@
+-- LOOK FOR DUPLICATES
+
+SELECT TÉLÉPHONE_DES_PARENTS
+FROM quetigny_eleves
+WHERE
+    (
+        TÉLÉPHONE_DES_PARENTS NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TÉLÉPHONE_DES_PARENTS NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+SELECT TÉLÉPHONE_DES_PARENTS2
+FROM quetigny_eleves
+WHERE
+    (
+        TÉLÉPHONE_DES_PARENTS2 NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TÉLÉPHONE_DES_PARENTS2 NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+
+SELECT TÉLÉPHONE_DES_PARENTS3
+FROM quetigny_eleves
+WHERE
+    (
+        TÉLÉPHONE_DES_PARENTS3 NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TÉLÉPHONE_DES_PARENTS3 NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+SELECT TÉLÉPHONE_DE_L_ENFANT
+FROM quetigny_eleves
+WHERE
+    (
+        TÉLÉPHONE_DE_L_ENFANT NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TÉLÉPHONE_DE_L_ENFANT NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+SELECT TELEPHONE_PARENTS_ELEVE_STAGE
+FROM ELEVE_STAGE
+WHERE
+    (
+        TELEPHONE_PARENTS_ELEVE_STAGE NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TELEPHONE_PARENTS_ELEVE_STAGE NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+SELECT TELEPHONE_ELEVE_ELEVE_STAGE
+FROM ELEVE_STAGE
+WHERE
+    (
+        TELEPHONE_PARENTS_ELEVE_STAGE NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TELEPHONE_PARENTS_ELEVE_STAGE NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
+
+SELECT TELEPHONE
+FROM intervenants
+WHERE
+    (
+        TELEPHONE NOT REGEXP '^(0[1-9] [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2})$'
+        AND TELEPHONE NOT REGEXP '^(0[1-9][0-9]{8})$'
+    );
