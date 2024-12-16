@@ -36,7 +36,7 @@
     "grunt-sass": "^1.0.0",
     "jasmine-core": "^2.3.4",
     "jshint-stylish": "^2.1.0",
-    "karma": "^0.13.10",
+    "karma": "^6.4.4",
     "karma-coverage": "^0.5.2",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1",
